@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-IN" }}">
+
+{%- include head.html -%}
+
+<body class="{% if page.style %}{{ page.style }} {% endif %}">
+
+  {%- include header.html -%}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+title: Elytra
+caption: Simple, Private, Feed Reader.
+author: 
+  - name: Dezine Zync Studios
+  - email: support@elytra.app
+description: > # this means to ignore newlines until "twitter_username:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+# social links
+twitter_username: dezinezync
+github_username:  dezinezync
+
+theme: launchkit
+brandColor: '#FF701A'
+
+externalLinks:
+  - title: Elytra
+    url: https://elytra.app
