@@ -1,10 +1,3 @@
-.container-fluid {
-  &.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -95,6 +88,11 @@
 
   .hero-image {
     z-index: 0;
+    
+    img {
+      width: 100vw;
+      height: auto;
+    }
   }
 
   > * {
@@ -102,4 +100,18 @@
     z-index: 1;
   }
 
+}
+
+[class*="container"] {
+  &.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid.no-padding > .hero.grid {
+    max-width: 1130px;
+    margin: 0 auto;
+  }
 }

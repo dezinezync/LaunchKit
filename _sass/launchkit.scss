@@ -22,8 +22,6 @@
   --dz-card-color: #fff;
   --dz-card-shadow: rgba(0,0,0,.08);
   --dz-card-shadow-hover: rgba(0,0,0,.12);
-
-  --font-size: 14pt;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,6 +43,7 @@
 }
 
 body {
+  --font-size: 14pt;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",sans-serif;
   background-color: var(--dz-background-color);
 }

@@ -68,12 +68,12 @@ layout: default
 
   <div class="hero stacked">
     <div class="hero-image">
-      <img src="https://www.apple.com/v/retail/business/l/images/business/hero_large_2x.jpg" width="1286" height="547"/>
+      <img src="https://www.apple.com/v/retail/business/l/images/business/hero_large_2x.jpg"/>
     </div>
 
     <div>
       <hgroup>
-        <h3>Mix. Match. MagSafe.</h3>
+        <h3 class="section-header-xl">Mix. Match. MagSafe.</h3>
         <p>Snap on a case, wallet, wireless charger, or battery pack.</p>
       </hgroup>
     </div>
@@ -87,5 +87,17 @@ layout: default
 
 .container-fluid.no-padding, .hero.rounded {
   background-color: var(--dz-grouped-background-color);
+}
+
+.hero.stacked hgroup {
+  text-align: center;
+}
+
+.hero.stacked hgroup h3 {
+  color: white;
+}
+
+.hero.stacked hgroup p {
+  color: #ccc;
 }
 </style>
