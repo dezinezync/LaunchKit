@@ -13,7 +13,7 @@
   --dz-grouped-background-color: #f5f5f7;
   --dz-title-color: #1d1d1f;
   --dz-text-color: #1d1d1f;
-  --dz-subtitle-color: #6e6e73;
+  --dz-subtitle-color: #75758A;
   --dz-subtext-color: #6e6e73;
 
   --dz-brand-color: #2EA7BD;
@@ -49,6 +49,10 @@ body {
 }
 
 body.grouped {
+  background-color: var(--dz-grouped-background-color);
+}
+
+html:has(body.grouped) {
   background-color: var(--dz-grouped-background-color);
 }
 
