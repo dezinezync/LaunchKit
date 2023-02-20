@@ -55,3 +55,25 @@ p {
 .section-header-s {
 	font-size: 24pt;
 }
+
+@media (max-width: 767px) {
+  .section-header-xxl {
+    font-size: 5rem;
+  }
+
+  .section-header-xl {
+    font-size: 4.2rem;
+  }
+
+  .section-header-l {
+    font-size: 3.75rem;
+  }
+
+  .section-header-m {
+    font-size: 3rem;
+  }
+
+  .section-header-s {
+    font-size: 2rem;
+  }
+}

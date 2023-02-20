@@ -18,6 +18,20 @@
 		}
 	}
 
+  .card-item-content {
+    padding: 1rem;
+    background: var(--dz-card-color);
+    border-radius: 20px;
+
+    &.shadowed {
+      box-shadow: 2px 4px 12px var(--dz-card-shadow);
+    }
+
+    &.interactive {
+      @include interactive-transition;
+    }
+  }
+
 	ul {
 		padding: 0;
 		margin: 0;
@@ -34,21 +48,7 @@
 				margin-right: 2rem;
 			}
 
-			.card-item-content {
-				padding: 1rem;
-				background: var(--dz-card-color);
-				border-radius: 20px;
-
-				&.shadowed {
-					box-shadow: 2px 4px 12px var(--dz-card-shadow);
-				}
-
-				&.interactive {
-					@include interactive-transition;
-				}
-			}
-
-			&:hover {
+      &:hover {
 				.card-item-content {
 					&.shadowed {
 						box-shadow: 2px 4px 16px var(--dz-card-shadow-hover);

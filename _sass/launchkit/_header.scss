@@ -33,3 +33,21 @@ header {
 		}
 	}
 }
+
+a, [role="link"] {
+  color: var(--dz-brand-color, var(--primary));
+}
+
+[role="button"], button {
+  background-color: var(--dz-brand-color, var(--primary)); 
+  border-color: var(--dz-brand-color, var(--border-color)); 
+}
+
+a, [role="link"], [role="button"] {
+  @include interactive-transition;
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.025);
+  }
+}
