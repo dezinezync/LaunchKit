@@ -3,6 +3,7 @@ PATH
   specs:
     launchkit (0.1.0)
       jekyll (~> 4.2)
+      jekyll-local-theme
 
 GEM
   remote: https://rubygems.org/
@@ -36,6 +37,13 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-local-theme (0.1.1)
+      jekyll-remote-theme (~> 0)
+    jekyll-remote-theme (0.4.3)
+      addressable (~> 2.0)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
+      rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
@@ -57,6 +65,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.30.0)
+    rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -70,6 +79,7 @@ PLATFORMS
   universal-darwin-21
 
 DEPENDENCIES
+  bundler
   launchkit!
 
 BUNDLED WITH
